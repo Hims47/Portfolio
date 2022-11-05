@@ -5,8 +5,7 @@ body {
     color: maroon;
 }
 footer {
-    text-align: center;
-    padding: 3px;
+    text-align: center;;
     background-color: maroon;
     color: white;
 }
@@ -19,14 +18,26 @@ a:hover {
 body {
     background-image: url(https://i.postimg.cc/1RVSBGYg/grey-background-charcoal-mobile-wallpaper-colorful-backdrop-presentation-135844439.jpg);
 }
-.container {
-    background-color: grey;
+h1 {
+    background-color: ;
+}
+.clamshell {
+    animation: anme 5s infinite;
+    animation-direction: alternate;
 }
 
-#info {
-    background-color: lightgray;
+@keyframes anme {
+    25%{
+        box-shadow: 10px 2px 10px 1px #642599;
+    }
+    50%{
+        box-shadow: 0px 7px 10px 1px #642599;
+    }
+    75%{
+        box-shadow: -10px 2px 10px 1px #642599;
+    }
+    100%{
+        box-shadow: 0px -7px 10px 1px #642599;
+    }
 }
-h1 {
-    background-color: gray;
-}
-https://i.postimg.cc/fRYpcNhq/234990.webp
+

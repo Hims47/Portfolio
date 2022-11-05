@@ -21,3 +21,12 @@ body {
 body {
     background-image: url(https://i.postimg.cc/1RVSBGYg/grey-background-charcoal-mobile-wallpaper-colorful-backdrop-presentation-135844439.jpg);
 }
+.card {
+    background-color: gray ;
+}
+@media screen (max-width:720px) {
+    .card-text {
+        width: 100%;
+    }
+    
+}

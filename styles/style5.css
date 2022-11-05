@@ -1,5 +1,5 @@
 body {
-    background-image: url(h);
+    background-image: url();
     text-align: center;
     color: maroon;
 }
@@ -15,6 +15,7 @@ header {
 a:hover {
     background-color: maroon;
 }
+
 body {
     background-image: url(https://i.postimg.cc/1RVSBGYg/grey-background-charcoal-mobile-wallpaper-colorful-backdrop-presentation-135844439.jpg);
 }
